@@ -5,70 +5,61 @@ api = 2
 ; Core
 ; Modules
 projects[admin_toolbar][subdir] = "contrib"
-projects[admin_toolbar][version] = "1.14"
+projects[admin_toolbar][version] = "1.18"
 
 projects[bg_image_formatter][subdir] = "contrib"
-projects[bg_image_formatter][version] = "1.x-dev"
-projects[bg_image_formatter][download][revision] = "9e15fa0"
-projects[bg_image_formatter][download][type] = "git"
+projects[bg_image_formatter][version] = "1.0-beta1"
 
 projects[coffee][subdir] = "contrib"
-projects[coffee][version] = "1.0-beta1"
+projects[coffee][version] = "1.0-beta2"
 
 projects[contact_storage][subdir] = "contrib"
-projects[contact_storage][version] = "1.0-beta2"
+projects[contact_storage][version] = "1.0-beta8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "3.0-alpha23"
+projects[ctools][version] = "3.0-alpha27"
 
 projects[devel][subdir] = "contrib"
-projects[devel][download][branch] = "1.x-dev"
-projects[devel][download][revision] = "c0b5c5f"
-projects[devel][download][type] = "git"
+projects[devel][version] = "1.0-rc1"
 
 projects[entity_reference_revisions][subdir] = "contrib"
-projects[entity_reference_revisions][version] = "1.0-rc4"
+projects[entity_reference_revisions][version] = "1.2"
 
 projects[iframe][subdir] = "contrib"
-projects[iframe][version] = "1.3"
+projects[iframe][version] = "1.6"
 
 projects[imce][subdir] = "contrib"
-projects[imce][version] = "1.0"
+projects[imce][version] = "1.4"
 
 projects[linkit][subdir] = "contrib"
-projects[linkit][version] = "4.1"
+projects[linkit][version] = "4.2"
+
+projects[mailsystem][subdir] = "contrib"
+projects[mailsystem][version] = "4.1"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-beta5"
+projects[metatag][version] = "1.0"
 
 projects[migrate_plus][subdir] = "contrib"
-projects[migrate_plus][version] = "1.0-beta1"
+projects[migrate_plus][version] = "3.0-beta1"
 
 projects[paragraphs][subdir] = "contrib"
-projects[paragraphs][version] = "1.0-rc4"
+projects[paragraphs][version] = "1.0"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-alpha2"
+projects[pathauto][version] = "1.0-rc1"
 
-projects[redirect][type] = module
 projects[redirect][subdir] = "contrib"
-projects[redirect][download][type] = git
-projects[redirect][download][url] = https://github.com/md-systems/redirect.git
-projects[redirect][download][branch] = "8.x-1.x"
+projects[redirect][version] = "1.0-alpha3"
 
 projects[s3fs][subdir] = "contrib"
-projects[s3fs][download][branch] = "2.x-dev"
-projects[s3fs][download][revision] = "bc925ea"
-projects[s3fs][download][type] = "git"
-projects[s3fs][patch][0] = "https://www.drupal.org/files/issues/s3fs-use_drush_translation_function-2679887-4-8.0.0.patch"
+projects[s3fs][version] = "2.0-alpha0"
 
 projects[simple_sitemap][subdir] = "contrib"
-projects[simple_sitemap][version] = "2.2"
+projects[simple_sitemap][version] = "2.8"
 
 projects[special_menu_items][subdir] = "contrib"
-projects[special_menu_items][download][branch] = "1.x-dev"
-projects[special_menu_items][download][revision] = "ee6c072"
-projects[special_menu_items][download][type] = "git"
+projects[special_menu_items][version] = "1.x-dev"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-alpha2"
+projects[token][version] = "1.0-rc1"
